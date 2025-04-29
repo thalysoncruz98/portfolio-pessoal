@@ -1,0 +1,381 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3d76c5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#links {
+    position: fixed;
+    width: 100%;
+    background-color: #194f86;
+    height: 60px;
+    z-index: 999;
+}
+
+#links ul {
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0px; /* espaço entre os links */
+    align-items: stretch; /* faz os <li> crescerem igualmente */
+    height: 100%; /* garante que use toda a altura */
+}
+
+#links li {
+    height: 100%; /* cada item acompanha a altura da barra */
+    width: 25%; /* cada item ocupa 25% da largura */
+
+}
+
+#links li a {
+    display: flex; /* permite esticar o <a> */
+    align-items: center; /* centraliza verticalmente o texto */
+    justify-content: center; /* opcional: centraliza o texto horizontalmente */
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 0px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+  
+#links li a:hover {
+    color: #007BFF;
+    background-color: #fdfdfd;
+}
+
+.form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 85%;
+}
+
+.input-icon{
+    width: 100%;
+}
+
+
+h2, h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Khand'
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<<<< Secao sobre >>>>*/
+#sobre {
+    padding: 80px 20px; /* espaçamento interno */
+    padding-bottom: 200px;
+    background-color: #f9f9f9; /* cor de fundo suave */
+    text-align: center; /* centralizar o título */
+}
+
+#sobre h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333; /* cor do texto */
+}
+
+#sobre div {
+    max-width: 800px; /* limitar a largura para não ficar muito grande */
+    margin: 0 auto; /* centralizar a div */
+    font-size: 1.2rem; /* tamanho da fonte confortável para leitura */
+    line-height: 1.8; /* espaçamento entre linhas */
+    color: #555; /* tom mais suave para o parágrafo */
+    text-align: justify; /* alinhamento justificado para o texto */
+    background: #fff; /* fundo branco para destacar o texto */
+    padding: 30px;
+    border-radius: 10px; /* cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* uma leve sombra para destacar */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<<<< Secao Formação >>>>*/
+#formacao {
+    padding: 80px 20px;
+    padding-bottom: 300px;
+    background-color: #eef2f7; /* cor suave para diferenciar da outra seção */
+    text-align: center;
+}
+
+#formacao h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.formacao-content {
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.formacao-item {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 400px;
+    text-align: left;
+}
+
+.formacao-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #007BFF;
+}
+
+.formacao-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.formacao-item ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<<<< Secao Portfólio >>>>*/
+#portfolio {
+    padding: 80px 20px;
+    padding-bottom: 300px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.portfolio-content {
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.portfolio-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    text-align: left;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.portfolio-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.portfolio-item a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.portfolio-item a:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<<<< Secao de contatos >>>>*/
+#contatos {
+    background-color: #eef2f7; /* cor suave para diferenciar da outra seção */
+    padding-top: 80px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#contatos h2 {
+    font-size: 2.5rem;
+}
+
+.contatos-wrapper {
+    display: flex;
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contatos-info {
+    flex: 1; /* Ocupa espaço disponível */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact-buttons a:hover {
+    transform: translateY(-5px);
+}
+
+.contact-buttons img {
+    width: 50px;
+    height: 50px;
+}
+
+#form-contatos {
+    flex: 1; /* Ocupa espaço disponível */
+    background: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#form-contatos h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border: none;
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 30%;
+    padding: 7px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

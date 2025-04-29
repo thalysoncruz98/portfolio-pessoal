@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Khand&display=swap" rel="stylesheet">
+    <title>Portfólio Thalyson</title>
+</head>
+<body>
+    <div id="links">
+        <ul>
+            <li><a href="#sobre">SOBRE MIM</a></li>
+            <li><a href="#formacao">FORMAÇÃO</a></li>
+            <li><a href="#portfolio">PORTFÓLIO</a></li>
+            <li><a href="#contatos">CONTATO</a></li>
+        </ul>
+    </div>
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <div>
+            Desde cedo, sempre fui apaixonado por matemática e lógica. Essa paixão me levou a conhecer o mundo da programação ainda no ensino médio, onde descobri um novo universo de possibilidades. Sempre tive uma preferência natural por aprender de forma autodidata, buscando constantemente novos conhecimentos e desafios.
+            Posteriormente, ingressei no Instituto Federal da Bahia (IFBA), onde tive a oportunidade de conhecer professores que foram fundamentais na minha trajetória. Um deles me convidou para participar de um projeto voluntário, no qual desenvolvi um sistema completo utilizando Ruby on Rails, Docker, PostgreSQL e gerenciando toda a infraestrutura. Foi uma experiência intensa, onde aprendi na prática, enfrentando desafios em "linha de fogo".
+            Desde então, atuo profissionalmente na área de tecnologia, somando mais de quatro anos de experiência. Sigo me aprimorando constantemente, sempre com o mesmo entusiasmo que me guiou desde o início da minha jornada.
+        </div>
+    </section>
+    <section id="formacao">
+        <h2>Formação Educacional</h2>
+        <div class="formacao-content">
+            <div class="formacao-item">
+                <h3>Ensino Superior</h3>
+                <ul>
+                    <li><strong>IFBA (Instituto Federal da Bahia)</strong> — Informática</li>
+                    <li><strong>UNINTER (Centro Universitário Internacional)</strong> — Cursando Ciência da Computação</li>
+                </ul>
+            </div>
+            <div class="formacao-item">
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Português (nativo)</li>
+                    <li>Inglês</li>
+                    <li>Russo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="portfolio-content">
+            <div class="portfolio-item">
+                <img src="images/projeto1.png" alt="Restrito 1">
+                <h3>Site de orçamento</h3>
+                <p>Um site mais simples utilizando html,css,javascript e php (Deploy e infra).</p>
+                <a href="https://link-do-projeto.com" target="_blank">Ver projeto</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/projeto2.png" alt="Restrito 2">
+                <h3>Sistema de gestão</h3>
+                <p>Sistema completo de gestao, Ruby on Rails + Docker + postgresql + linux.</p>
+                <a href="https://link-do-projeto.com" target="_blank">Ver projeto</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/projeto3.png" alt="Restrito 2">
+                <h3>Sitema complexo de gestão</h3>
+                <p>Sistema grande e complexo de gestão escolar. (Linux, Docker, Ruby on Rails, Postgresql, Sidekiq, Redis, Infra)</p>
+                <a href="https://link-do-projeto.com" target="_blank">Ver projeto</a>
+            </div>
+            <!-- Pode ir adicionando mais projetos... -->
+        </div>
+    </section>
+    <section id="contatos">
+        <h2>Contatos</h2>
+        <div class="contatos-wrapper">
+            <div class="contatos-info">
+                <div class="contact-buttons">
+                    <a href="https://wa.me/77999157289" target="_blank"><img src="images/icons/whatsapp.png" alt="WhatsApp"></a>
+                    <a href="https://github.com/thalysoncruz98" target="_blank"><img src="images/icons/github.png" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/in/thalyson-cruz-programmer/" target="_blank"><img src="images/icons/linkedin.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <form id="form-contatos">
+                <h3>Como posso te ajudar?</h3>
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Nome">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="contact" name="contact" placeholder="Telefone">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="mensage" name="mensage" placeholder="Diga-me o que precisa" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
